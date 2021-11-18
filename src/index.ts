@@ -69,3 +69,14 @@ let cid: any = 1;
 let customerID = <number>cid;
 
 let customerID2 = cid as number;
+
+// Functions
+function addNum(x: number, y: number): number {
+  return x + y;
+}
+
+function log(message: string | number): void {
+  console.log(message);
+}
+
+console.log(addNum(1, 2));

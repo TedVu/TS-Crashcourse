@@ -36,3 +36,24 @@ var Direction2;
     Direction2["RIGHT"] = "RIGHT";
 })(Direction2 || (Direction2 = {}));
 console.log(Direction2.DOWN);
+// Object type syntax of declaring type and defining objects
+const user = {
+    id: 1,
+    name: "ted",
+};
+const person2 = {
+    id: 1,
+    name: "ted",
+};
+// Type assertion
+let cid = 1;
+let customerID = cid;
+let customerID2 = cid;
+// Functions
+function addNum(x, y) {
+    return x + y;
+}
+function log(message) {
+    console.log(message);
+}
+console.log(addNum(1, 2));
