@@ -64,6 +64,7 @@ const user1 = {
 const add = (x, y) => x + y;
 const sub = (x, y) => x - y;
 // Using classes
+// class implements interface
 class Person {
     constructor(id, name) {
         this.id = id;
