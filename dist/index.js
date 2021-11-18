@@ -57,3 +57,7 @@ function log(message) {
     console.log(message);
 }
 console.log(addNum(1, 2));
+const user1 = {
+    id: 1,
+    name: "Ted",
+};

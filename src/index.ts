@@ -80,3 +80,14 @@ function log(message: string | number): void {
 }
 
 console.log(addNum(1, 2));
+
+// Interfaces
+interface UserInterface {
+  id: number;
+  name: string;
+}
+
+const user1: UserInterface = {
+  id: 1,
+  name: "Ted",
+};
