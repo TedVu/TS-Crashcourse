@@ -110,8 +110,14 @@ class Person {
     this.id = id;
     this.name = name;
   }
+
+  register() {
+    return `${this.name} is now registered`;
+  }
 }
 
 const ted = new Person(1, "Ted");
 
 console.log(ted);
+
+console.log(ted.register());
