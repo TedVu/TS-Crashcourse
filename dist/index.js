@@ -92,4 +92,4 @@ function getArray(items) {
 }
 let numArray = getArray([1, 2, 3, 4]);
 let strArray = getArray(["ted", "kevin", "mia"]);
-numArray.push("Hello");
+numArray.push(1);
