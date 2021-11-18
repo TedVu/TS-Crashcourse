@@ -86,3 +86,10 @@ const emp = new Employee(3, "Ted", "Software Engineer");
 console.log(ted);
 console.log(ted.register());
 emp.register();
+// Generics
+function getArray(items) {
+    return new Array().concat(items);
+}
+let numArray = getArray([1, 2, 3, 4]);
+let strArray = getArray(["ted", "kevin", "mia"]);
+numArray.push("Hello");

@@ -142,3 +142,14 @@ console.log(ted);
 console.log(ted.register());
 
 emp.register();
+
+// Generics
+function getArray<T>(items: any[]): any[] {
+  return new Array().concat(items);
+}
+
+let numArray = getArray<number>([1, 2, 3, 4]);
+
+let strArray = getArray(["ted", "kevin", "mia"]);
+
+numArray.push("Hello");
