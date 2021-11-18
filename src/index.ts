@@ -43,3 +43,23 @@ enum Direction2 {
   RIGHT = "RIGHT",
 }
 console.log(Direction2.DOWN);
+
+// Object type syntax of declaring type and defining objects
+const user: {
+  id: number;
+  name: string;
+} = {
+  id: 1,
+  name: "ted",
+};
+
+// object but declaring and defining are different
+type userType = {
+  id: number;
+  name: string;
+};
+
+const person2: userType = {
+  id: 1,
+  name: "ted",
+};
