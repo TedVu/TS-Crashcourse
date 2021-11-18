@@ -74,6 +74,13 @@ class Person {
         return `${this.name} is now registered`;
     }
 }
+// Child class extends super class
+class Employee extends Person {
+    constructor(id, name, position) {
+        super(id, name);
+        this.position = position;
+    }
+}
 const ted = new Person(1, "Ted");
 console.log(ted);
 console.log(ted.register());

@@ -123,6 +123,16 @@ class Person implements PersonInterface {
   }
 }
 
+// Child class extends super class
+class Employee extends Person {
+  position: string;
+
+  constructor(id: number, name: string, position: string) {
+    super(id, name);
+    this.position = position;
+  }
+}
+
 const ted = new Person(1, "Ted");
 
 console.log(ted);
