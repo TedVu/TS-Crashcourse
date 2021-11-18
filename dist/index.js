@@ -82,5 +82,7 @@ class Employee extends Person {
     }
 }
 const ted = new Person(1, "Ted");
+const emp = new Employee(3, "Ted", "Software Engineer");
 console.log(ted);
 console.log(ted.register());
+emp.register();
