@@ -63,3 +63,9 @@ const person2: userType = {
   id: 1,
   name: "ted",
 };
+
+// Type assertion
+let cid: any = 1;
+let customerID = <number>cid;
+
+let customerID2 = cid as number;
